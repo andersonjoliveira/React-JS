@@ -1,0 +1,66 @@
+var lista = ["Matheus", "Lucas", "Henrique", 15 ];
+undefined
+lista
+(4) ["Matheus", "Lucas", "Henrique", 15]
+    0: "Matheus"
+    1: "Lucas"
+    2: "Henrique"
+    3: 15
+    length: 4[[Prototype]]: Array(0)
+
+lista.indexOf("Henrique");
+2
+
+lista[2]
+"Henrique"
+
+lista.indexOf("HenriqueX");
+-1
+
+lista.join(",");
+"Matheus,Lucas,Henrique,15"
+
+lista.join(" / ");
+"Matheus / Lucas / Henrique / 15"
+
+<!-- remove o ultimo elemento da lista -->
+lista.pop(); 
+15
+lista
+(3) ["Matheus", "Lucas", "Henrique"]
+
+
+<!-- remove o primeiro elemento da lista -->
+lista.shift(); 
+"Matheus"
+lista
+(2) ["Lucas", "Henrique"]
+
+<!-- alterar elemento da lista -->
+lista.indexOf("Lucas");
+0
+lista[0];
+"Lucas"
+lista[0] = "Lucas Ferreira";
+"Lucas Ferreira"
+lista
+(2) ["Lucas Ferreira", "Henrique"]
+
+<!-- Adicionar item da lista -->
+lista
+(2) ["Lucas Ferreira", "Henrique"]
+lista.push("Matheus");
+3
+lista
+(3) ["Lucas Ferreira", "Henrique", "Matheus"]
+
+<!-- Condicao na lista -->
+lista
+(3) ["Lucas Ferreira", "Henrique", "Matheus"]
+if(lista.indexOf("Henrique") > -1){
+    alert("Esse item esta na lista!");
+}else{
+    alert("Opa nao encontrado!");
+}
+undefined
+

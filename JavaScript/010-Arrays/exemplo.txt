@@ -1,0 +1,17 @@
+var lista = ["Matheus", "Lucas", "Henrique", "João", 15];
+undefined
+lista
+(5) ["Matheus", "Lucas", "Henrique", "João", 15]
+    0: "Matheus"
+    1: "Lucas"
+    2: "Henrique"
+    3: "João"
+    4: 15
+    length: 5
+    [[Prototype]]: Array(0)
+lista.length
+5
+lista[1]
+"Lucas"
+lista[4]
+15

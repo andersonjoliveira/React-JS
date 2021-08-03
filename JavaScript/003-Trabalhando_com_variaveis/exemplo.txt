@@ -1,0 +1,37 @@
+(F12) Console do Navegador Google
+
+var nome = "Anderson";
+undefined
+nome
+"Anderson"
+var x = 10
+undefined
+x
+10
+alert(x);
+undefined
+alert("O valor de X é:" + x);
+undefined
+var y = 20;
+undefined
+x + y;
+30
+var soma = 0;
+undefined
+soma = x + y;
+30
+x
+10
+y
+20
+soma
+30
+alert("Meu nome é:" + nome);
+undefined
+var sobrenome = "Oliveira";
+undefined
+alert("Meu nome é:" + nome + sobrenome);
+undefined
+alert("Meu nome é :" + nome + " " + sobrenome);
+undefined
+

@@ -1,0 +1,56 @@
+(F12) Console do Navegador Google
+
+console.log(soma);
+VM658:1 30
+undefined
+console.log(nome);
+VM717:1 Matheus
+undefined
+
+****case sensivite****
+
+var nome = "Anderson";
+undefined
+nome
+"Anderson"
+var NOME = "Lucas";
+undefined
+NOME
+"Lucas"
+var Nome = "João";
+undefined
+Nome
+"João"
+
+****keywords****
+
+var var; não pode palavra chave
+var function; não pode palavra chave
+
+********
+
+var a = 5;
+undefined
+var b = 2;
+undefined
+a + b;
+7
+a * b;
+10
+a - b;
+3
+a / b;
+2.5
+var nome;
+undefined
+nome = "Rodrigo";
+"Rodrigo"
+var sobrenome;
+undefined
+sobrenome = "Silva";
+"Silva"
+var temporaria;
+undefined
+temporaria = nome + " " + sobrenome;
+"Rodrigo Silva"
+
