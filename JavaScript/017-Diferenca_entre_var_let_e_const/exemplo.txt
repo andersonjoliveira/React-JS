@@ -1,0 +1,65 @@
+var nome = "Anderson";
+undefined
+if(nome == "Anderson"){
+    var idade = 40;
+    console.log("Tem "+idade);
+}
+VM60:3 Tem 40
+undefined
+if(nome == "Anderson"){
+    let sobrenome = "Oliveira";
+    console.log("Anderson "+sobrenome);
+}
+VM65:3 Anderson Oliveira
+undefined
+sobrenome
+VM83:1 Uncaught ReferenceError: sobrenome is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM83:1
+
+*********************************************************
+
+var lista = [1,2,3];
+undefined
+for(var i in lista){
+    console.log(lista[i]);
+}
+VM416:2 1
+VM416:2 2
+VM416:2 3
+undefined
+i
+"2"
+for(let b in lista){
+    console.log(lista[b]);
+}
+VM566:2 1
+VM566:2 2
+VM566:2 3
+undefined
+b
+VM585:1 Uncaught ReferenceError: b is not defined
+    at <anonymous>:1:1
+
+*********************************************************
+
+let nome = "Anderson";
+undefined
+var idade = 10;
+undefined
+if(idade == 10){
+    console.log(nome);
+}
+VM804:2 Anderson
+undefined
+
+*********************************************************
+
+const nome = "Lucas";
+undefined
+nome
+"Lucas"
+nome = "Matheus";
+VM921:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:6
+

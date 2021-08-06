@@ -1,0 +1,14 @@
+let nome = "Anderson";
+undefined
+let sobrenome = "Oliveira";
+undefined
+let idade = 45;
+undefined
+let pessoa = "Meu nome eh: "+nome+" "+sobrenome+" e eu tenho "+idade+ " anos";
+undefined
+pessoa
+"Meu nome eh: Anderson Oliveira e eu tenho 45 anos"
+let pessoa2 = `Meu nome eh: ${nome} ${sobrenome} e eu tenho ${idade} anos`;
+undefined
+pessoa2
+"Meu nome eh: Anderson Oliveira e eu tenho 45 anos"

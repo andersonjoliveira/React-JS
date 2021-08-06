@@ -1,0 +1,79 @@
+const pessoa = {
+    nome: "Anderson",
+    sobrenome: "Oliveira",
+    idade: 10,
+    cargo: "Desenvolvedor"
+};
+undefined
+pessoa
+{nome: "Anderson", sobrenome: "Oliveira", idade: 10, cargo: "Desenvolvedor"}cargo: "Desenvolvedor"idade: 10nome: "Anderson"sobrenome: "Oliveira"[[Prototype]]: Object
+let { nome } = pessoa;
+undefined
+nome
+"Anderson"
+let { sobrenome } = pessoa;
+undefined
+sobrenome
+"Oliveira"
+let { idade, cargo } = pessoa;
+undefined
+idade
+10
+cargo
+"Desenvolvedor"
+let { cargo:programador } = pessoa;
+undefined
+programador
+"Desenvolvedor"
+
+*************************************************************************
+
+pessoa
+{nome: "Anderson", sobrenome: "Oliveira", idade: 10, cargo: "Desenvolvedor"}
+cargo
+"Desenvolvedor"
+cargo = "Analista";
+"Analista"
+cargo
+"Analista"
+pessoa
+{nome: "Anderson", sobrenome: "Oliveira", idade: 10, cargo: "Desenvolvedor"}
+
+*************************************************************************
+
+let nomes = [ 'Matheus', 'Fraga', 10 ]; 
+undefined
+nomes
+(3) ["Matheus", "Fraga", 10]0: "Matheus"1: "Fraga"2: 10length: 3[[Prototype]]: Array(0)
+let { 1:segundonome } = nomes;
+undefined
+segundonome
+"Fraga"
+let { 0:primeironome, 2:idade } = nomes;
+undefined
+idade
+10
+primeironome
+"Matheus"
+
+*************************************************************************
+
+let nomes = ['Lucas', 'Braga', 15];
+undefined
+nomes
+(3) ["Lucas", "Braga", 15]0: "Lucas"1: "Braga"2: 15length: 3[[Prototype]]: Array(0)
+let [ nome, sobrenome, idade ] = nomes;
+undefined
+idade
+15
+sobrenome
+"Braga"
+nome
+"Lucas"
+let [ primeironome, segundonome ] = nomes;
+undefined
+primeironome
+"Lucas"
+segundonome
+"Braga"
+
