@@ -1,3 +1,16 @@
+import Routes from './routes';
+
+export default function App(){
+  return(
+      <Routes/>      
+  );
+}
+
+
+
+
+/* 53. Requisições HTTP
+
 import React, { useEffect, useState } from 'react';
 import './style.css';
 
@@ -50,3 +63,5 @@ function App() {
 }
 
 export default App;
+
+*/
